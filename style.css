@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(135deg, #1d1e26, #3a3b54);
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Game Container */
+  .game-container {
+    background: #282a36;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    color: #ff79c6;
+    margin-bottom: 15px;
+  }
+  
+  .instructions p {
+    font-size: 1rem;
+    color: #bd93f9;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  input[type="number"],
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #44475a;
+    color: #f8f8f2;
+    text-align: center;
+    outline: none;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #start-game {
+    background: #50fa7b;
+    color: #282a36;
+  }
+  
+  #start-game:hover {
+    background: #45e66c;
+  }
+  
+  #submit-guess {
+    background: #8be9fd;
+    color: #282a36;
+  }
+  
+  #submit-guess:hover {
+    background: #78d4e6;
+  }
+  
+  #quit-game {
+    background: #ff5555;
+    color: #282a36;
+  }
+  
+  #quit-game:hover {
+    background: #e64545;
+  }
+  
+  /* Hint Section */
+  #hint {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f1fa8c;
+  }
+  
+  /* Hidden Element */
+  .hidden {
+    display: none;
+  }
+  
